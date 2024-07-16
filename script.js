@@ -7,7 +7,8 @@ let calculateButton = doc.querySelector('.button')
 
 calculateButton.addEventListener('click' , calculating)
 
-function calculating() {
+function calculating(event) {
+    event.preventDefault()
 
     let ageInputValue = ageInput.value.replace(/\s+/g , '').split('-')
     console.log(ageInputValue)
