@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all ease 120ms 20ms;
+    -webkit-transition: all ease 120ms 20ms;
+    -moz-transition: all ease 120ms 20ms;
+    -ms-transition: all ease 120ms 20ms;
+    -o-transition: all ease 120ms 20ms;
+}
+
+.d-flex-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'poppins' , sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8fdff;
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 350px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: rgb(0, 142, 237);
+}
+
+.calculate-form {
+    gap: 20px;
+    padding: 20px;
+    width: 240px;
+}
+
+#age-input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: 0px 0px 8px #00579d7f inset;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+#age-input:focus {
+    box-shadow: 0px 0px 8px #00579d7f;
+    background-color: #f9feff;
+}
+
+.button {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffffe7;
+    width: 45%;
+    height: 35px;
+    background-color: rgb(0, 146, 244);
+    box-shadow: 0px 0px 8px #001a287f;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4fbfff;
+    box-shadow: 0px 0px 10px #032335a9;
+}
