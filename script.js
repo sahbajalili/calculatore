@@ -19,18 +19,22 @@ function calculating() {
         if ((ageInputValue[1] == '01') || (ageInputValue[1] == '03') || (ageInputValue[1] == '05') || (ageInputValue[1] == '07') || (ageInputValue[1] == '08') || (ageInputValue[1] == '10') || (ageInputValue[1] == '12')) {
             if (ageInputValue[2] <= 16) {
                 userDay = 16 - +ageInputValue[2]
-                if (ageInputValue[1] <= 7) {
+                if (ageInputValue[1] < 7) {
                     userMonth = 7 - +ageInputValue[1]
                     userYear = 2024 - +ageInputValue[0]
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
                 } else {
                     userMonth = 12 - (+ageInputValue[1] - 7) 
                     userYear = 2024 - +ageInputValue[0] - 1
-                    result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
+                    if (ageInputValue[1] == 7) {
+                        result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
+                    } else {
+                        result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
+                    }
                 }
             } else {
                 userDay = 31 - (+ageInputValue[2] - 16)
-                if (ageInputValue[1] <= 7) {
+                if (ageInputValue[1] < 7) {
                     userMonth = 7 - +ageInputValue[1]
                     userYear = 2024 - +ageInputValue[0]
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
@@ -45,7 +49,7 @@ function calculating() {
         } else if ((ageInputValue[1] == '04') || (ageInputValue[1] == '06') || (ageInputValue[1] == '09') || (ageInputValue[1] == '11')) {
             if (ageInputValue[2] <= 16) {
                 userDay = 16 - +ageInputValue[2]
-                if (ageInputValue[1] <= 7) {
+                if (ageInputValue[1] < 7) {
                     userMonth = 7 - +ageInputValue[1]
                     userYear = 2024 - +ageInputValue[0]
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay

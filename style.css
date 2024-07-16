@@ -42,7 +42,7 @@ h1 {
 .calculate-form {
     gap: 20px;
     padding: 20px;
-    width: 240px;
+    width: 300px;
 }
 
 #age-input {
@@ -64,11 +64,23 @@ h1 {
     background-color: #f9feff;
 }
 
+.result {
+    background-color: #e7f6ff;
+    width: 100%;
+    font-size: 14px;
+    box-shadow: 0px 5px 5px #00579d7f;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
 .button {
     font-size: 14px;
     font-weight: 600;
     color: #ffffffe7;
-    width: 45%;
+    width: 40%;
     height: 35px;
     background-color: rgb(0, 146, 244);
     box-shadow: 0px 0px 8px #001a287f;
