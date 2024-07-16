@@ -45,6 +45,12 @@ h1 {
     width: 300px;
 }
 
+label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #073d5c;
+}
+
 #age-input {
     width: 100%;
     height: 40px;
