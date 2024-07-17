@@ -73,13 +73,14 @@ label {
 .result {
     background-color: #e7f6ff;
     width: 100%;
-    font-size: 14px;
+    font-size: 13px;
+    padding: 10px;
     box-shadow: 0px 5px 5px #00579d7f;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .button {
