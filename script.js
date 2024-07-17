@@ -26,7 +26,11 @@ function calculating(event) {
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
                 } else {
                     userMonth = 12 - (+ageInputValue[1] - 7) 
-                    userYear = 2024 - +ageInputValue[0] - 1
+                    if (ageInputValue[0] == 2024) {
+                        userYear = 0
+                    } else {
+                        userYear = 2024 - +ageInputValue[0] - 1
+                    }
                     if (ageInputValue[1] == 7) {
                         result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
                     } else {
@@ -41,7 +45,11 @@ function calculating(event) {
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
                 } else {
                     userMonth = 12 - (+ageInputValue[1] - 7) 
-                    userYear = 2024 - +ageInputValue[0] - 1
+                    if (ageInputValue[0] == 2024) {
+                        userYear = 0
+                    } else {
+                        userYear = 2024 - +ageInputValue[0] - 1
+                    }
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
                 }
             }
@@ -56,7 +64,11 @@ function calculating(event) {
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
                 } else {
                     userMonth = 12 - (+ageInputValue[1] - 7) 
-                    userYear = 2024 - +ageInputValue[0] - 1
+                    if (ageInputValue[0] == 2024) {
+                        userYear = 0
+                    } else {
+                        userYear = 2024 - +ageInputValue[0] - 1
+                    }
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
                 }
             } else {
@@ -67,7 +79,11 @@ function calculating(event) {
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
                 } else {
                     userMonth = 12 - (+ageInputValue[1] - 7) 
-                    userYear = 2024 - +ageInputValue[0] - 1
+                    if (ageInputValue[0] == 2024) {
+                        userYear = 0
+                    } else {
+                        userYear = 2024 - +ageInputValue[0] - 1
+                    }
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
                 }
             }
@@ -82,7 +98,11 @@ function calculating(event) {
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
                 } else {
                     userMonth = 12 - (+ageInputValue[1] - 7) 
-                    userYear = 2024 - +ageInputValue[0] - 1
+                    if (ageInputValue[0] == 2024) {
+                        userYear = 0
+                    } else {
+                        userYear = 2024 - +ageInputValue[0] - 1
+                    }
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + userMonth + ' - Days : ' + userDay
                 }
             } else {
@@ -93,7 +113,11 @@ function calculating(event) {
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
                 } else {
                     userMonth = 12 - (+ageInputValue[1] - 7) 
-                    userYear = 2024 - +ageInputValue[0] - 1
+                    if (ageInputValue[0] == 2024) {
+                        userYear = 0
+                    } else {
+                        userYear = 2024 - +ageInputValue[0] - 1
+                    }
                     result.innerHTML = 'Years : ' + userYear + ' - Months : ' + --userMonth + ' - Days : ' + userDay
                 }
             }
