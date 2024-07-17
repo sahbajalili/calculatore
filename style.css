@@ -62,7 +62,7 @@ label {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     padding: 10px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #age-input:focus {
@@ -96,6 +96,7 @@ label {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     padding: 10px 0px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
